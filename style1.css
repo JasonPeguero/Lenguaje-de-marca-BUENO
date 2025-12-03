@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 
 .MenuLateral {
     min-height: 100vh;
@@ -19,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     min-height: 60px;
 }
 
@@ -52,11 +55,12 @@
 }
 
 .contenidoApartado2{
+    padding-top: 4%;
+    padding-left: 4%;
+    min-height:82vh;
     display: flex;
-    margin-left: auto;
-    justify-content: center;
-    min-height:89.5vh;
     background-color: #ff00b3
+    
 }
 
 .contenidoApartado3{
@@ -73,14 +77,11 @@
     background-color: blueviolet;
 }
 .formulario1{
-    width: 70vh;
-    height: 60vh;
+    width: 50%;
+    width: 50%;
     margin: 5%;
-    margin-right: 80%;
     background-color: rgb(146, 144, 148);
     border: 2px solid white;
     float: inline-start;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: auto;
 }
