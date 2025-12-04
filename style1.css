@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 
 .MenuLateral {
     min-height: 100vh;
@@ -7,19 +11,23 @@
 }
 
 .Botones{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 10%;
     margin-top: 20px;
     align-content: center;
     background-color: #00b7ff;
-    padding: 30px;
+    padding: 10%;
     margin-bottom: 30px;
     border: 2px solid #000000;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
 }
 
 .ParteSuperior {
-    height: 100px;
+    height: 10vh;
     background-color: #2cff02;
     display: flex;
     justify-content: space-between
@@ -37,8 +45,8 @@
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 15%;
+    height: 100%;
     background-color: #0032d8;
     display: flex;
     margin-left: auto;
@@ -47,18 +55,20 @@
 }
 
 .contenidoApartado2{
+    padding-top: 4%;
+    padding-left: 4%;
+    min-height:82vh;
     display: flex;
-    margin-left: auto;
-    justify-content: center;
-    min-height:89.5vh;
     background-color: #ff00b3
+    
 }
 
 .contenidoApartado3{
     width: 50%;
     min-height:90vh;
     float: inline-start;
-    background-color: #2d8dcc
+    background-color: #2d8dcc;
+    margin-left: auto;
 }
 .contenidoApartado31{
     width: 35%;
@@ -68,6 +78,10 @@
 }
 .formulario1{
     width: 50%;
+    width: 50%;
+    margin: 5%;
+    background-color: rgb(146, 144, 148);
+    border: 2px solid white;
     float: inline-start;
-    background-color: blueviolet;
+    margin-right: auto;
 }
