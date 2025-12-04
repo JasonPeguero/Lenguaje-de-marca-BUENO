@@ -11,8 +11,11 @@
 </head>
 <body>
     <form action="">
-        
-    Elige un color: <input type="color">
+    <fieldset>
+        <legend>Rellenar</legend>
+        <select> <option value="">Hombre</option></select>
+        <br>
+        Elige un color: <input type="color">
     <br>
     Elige una fecha: <input type="date">
     <br>
@@ -36,6 +39,27 @@
     Apellidos <input type="text">
     <br>
     Email <input type="email">
+    </fieldset>
+
+    <fieldset><legend>Rellene las opciones siguientes</legend>
+    <label for="boton">
+        <input type="button" name="boton"> Windows
+        <input type="button" name="boton"> Mac
+        <input type="button" name="boton"> Linux
+    </label>
+    <br>
+    Elija una hora <input type="time">
+    <br>
+    <label for="botonredondo"><input type="radio" name="botonredondo"> AMD <input type="radio" name="botonredondo"> Intel i5 <input type="radio" name="botonredondo"> Intel i7
+</label>
+<br>
+Elija un fichero <input type="file">
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value=" Enviar Formulario">
+    <input type="reset" value=" Borrar los datos introducidos">
     </form>
 </body>
 </html>
