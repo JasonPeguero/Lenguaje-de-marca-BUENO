@@ -1,0 +1,32 @@
+<pedidos>
+    <pedido numero="1001">
+        <cliente>Javier López</cliente>
+        <fecha>2024-11-01</fecha>
+        <productos>
+            <producto>
+                <nombre>Teclado</nombre>
+                <unidades>2</unidades>
+                <precio>25</precio>
+            </producto>
+            <producto>
+                <nombre>Ratón</nombre>
+                <unidades>1</unidades>
+                <precio>15</precio>
+            </producto>
+        </productos>
+        <total>65</total>
+    </pedido>
+
+    <pedido numero="1002">
+        <cliente>María Gil</cliente>
+        <fecha>2024-11-03</fecha>
+        <productos>
+            <producto>
+                <nombre>Monitor</nombre>
+                <unidades>1</unidades>
+                <precio>199</precio>
+            </producto>
+        </productos>
+        <total>199</total>
+    </pedido>
+</pedidos>

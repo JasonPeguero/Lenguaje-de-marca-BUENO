@@ -1,0 +1,39 @@
+<redSocial>
+
+    <usuarios>
+        <usuario id="U1">
+            <nombre>David</nombre>
+        </usuario>
+
+        <usuario id="U2">
+            <nombre>Andrea</nombre>
+        </usuario>
+
+        <usuario id="U3">
+            <nombre>Miguel</nombre>
+        </usuario>
+    </usuarios>
+
+    <Publicaciones>
+        <publicacion id="P1">
+            <autor>U1</autor>
+            <contenido>Hola mundo</contenido>
+        </publicacion>
+        <publicacion id="P2">
+            <autor>U2</autor>
+            <contenido>Aprendiendo XML</contenido>
+        </publicacion>
+    </Publicaciones>
+    <Comentarios>
+        <comentario id="C1">
+            <autor>U3</autor>
+            <contenido>Buen post</contenido>
+            <sobre id="P1" />
+        </comentario>
+        <comentario id="C2">
+            <autor>U1</autor>
+            <contenido>Yo también</contenido>
+            <sobre id="P2" />
+        </comentario>
+    </Comentarios>
+</redSocial>

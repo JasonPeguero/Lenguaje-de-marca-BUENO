@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Liga>
+    <equipos>
+        <equipo id="E1">
+            <nombre>Real Madrid</nombre>
+        </equipo>
+
+        <equipo id="E2">
+            <nombre>Barcelona</nombre>
+        </equipo>
+
+    </equipos>
+
+    <jugadores>
+        <jugador id="J1" equipo="E1">
+            <nombre>Vinicius </nombre>
+        </jugador>
+
+        <jugador id="J2" equipo="E2">
+            <nombre>Lewandowski </nombre>
+        </jugador>
+    </jugadores>
+
+    <partidos>
+        <partido id="P1">
+            <equipoLocal>E1</equipoLocal>
+            <equipoVisitante>E2</equipoVisitante>
+            <fecha>2024-10-01</fecha>
+            <resultado>2-1</resultado>
+        </partido>
+
+    </partidos>
+
+    <Goles>
+        <gol1 minuto="15" jugador="J1" />
+        <gol2 minuto="40" jugador="J2" />
+        <gol3 minuto="70" jugador="J1" />
+    </Goles>
+
+</Liga>
