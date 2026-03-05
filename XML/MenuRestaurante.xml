@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+    <entrantes>
+        <plato enCarta="true">
+            <nombre>Ensalada César</nombre>
+            <precio>8.50</precio>
+            <descripcion>Ensalada fresca con lechuga, pollo a la parrilla, croutons y salsa César.</descripcion>
+        </plato>
+        <plato enCarta="true">
+            <nombre>Croquetas </nombre>
+            <precio>7.00</precio>
+            <descripcion>Croquetas de pollo rebozadas y fritas, servidas con salsa de mostaza.</descripcion>
+        </plato>
+    </entrantes>
+    <platosPrincipales>
+        <plato enCarta="true">
+            <nombre>Entrecot </nombre>
+            <precio>18.50</precio>
+            <descripcion>Jugoso entrecot de ternera a la parrilla con guarnición de patatas fritas.</descripcion>
+        </plato>
+        <plato enCarta="true">
+            <nombre>Salmón al horno</nombre>
+            <precio>16.00</precio>
+            <descripcion>Salmón fresco al horno con hierbas y limón.</descripcion>
+        </plato>
+    </platosPrincipales>
+    <postres>
+        <plato enCarta="true">
+            <nombre>Tarta de queso</nombre>
+            <precio>5.50</precio>
+            <descripcion>Tarta de queso con base de galleta y cobertura de mermelada de fresa.</descripcion>
+        </plato>
+        <plato enCarta="true">
+            <nombre>Flan</nombre>
+            <precio>4.00</precio>
+            <descripcion>Flan casero de huevo con caramelo.</descripcion>
+        </plato>
+    </postres>
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <videojuego id="1">
+        <titulo> Elden Ring</titulo>
+        <año>2022</año>
+        <genero>RPG</genero>
+        <genero>Sandbox</genero>
+        <precio>59.99</precio>
+    </videojuego>
+    <videojuego id="2">
+        <titulo> FIFA 24</titulo>
+        <año>2023</año>
+        <genero>Deportes</genero>
+        <precio>69.99</precio>
+    </videojuego>
+    <videojuego id="3">
+        <titulo> Minecraft </titulo>
+        <año>2011 </año>
+        <genero>Sandbox </genero>
+        <precio>26.95</precio>
+    </videojuego>
+</catalogo>

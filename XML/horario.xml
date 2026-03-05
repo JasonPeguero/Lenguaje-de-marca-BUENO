@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semana>
+    <dia id="Lunes">
+        <asignatura>Programación</asignatura>
+        <hora>08:15–09:15</hora>
+        <asignatura>Bases de Datos</asignatura>
+        <hora>09:15–10:15</hora>
+    </dia>
+    <dia id="Martes">
+        <asignatura>Lenguajes de Marcas</asignatura>
+        <hora>08:15–09:15</hora>
+        <asignatura>Sistemas Informáticos</asignatura>
+        <hora>09:15–10:15</hora>
+    </dia>
+</semana>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto>
+
+    <alumnos>
+        <alumno id="A1">
+            <nombre>Pablo García</nombre>
+            <edad>20</edad>
+        </alumno>
+
+        <alumno id="A2">
+            <nombre>Lucía Fernández</nombre>
+            <edad>19</edad>
+        </alumno>
+    </alumnos>
+
+    <asignaturas>
+        <asignatura id="AS1">
+            <nombre>Programación</nombre>
+        </asignatura>
+
+        <asignatura id="AS2">
+            <nombre>Bases de Datos</nombre>
+        </asignatura>
+
+        <asignatura id="AS3">
+            <nombre>Lenguajes de Marcas</nombre>
+        </asignatura>
+    </asignaturas>
+
+    <matriculas>
+        <matricula alumno="A1">
+            <asignatura>AS1</asignatura>
+            <asignatura>AS2</asignatura>
+        </matricula>
+
+        <matricula alumno="A2">
+            <asignatura>AS1</asignatura>
+            <asignatura>AS3</asignatura>
+        </matricula>
+    </matriculas>
+
+</instituto>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno>
+    <nombre>Carlos</nombre>
+    <apellido>Pérez Gómez</apellido>
+    <edad>20</edad>
+    <Email>carlos.perez@email.com</Email>
+    <Telefono>666123123</Telefono>
+</alumno>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <desarrollo>
+        <empleado id="1">
+            <nombre>Ana Torres</nombre>
+            <puesto>Desarrolladora</puesto>
+            <salarioAnual>28000€</salarioAnual>
+            <fechaContratacion>2022-03-15</fechaContratacion>
+        </empleado>
+        <empleado id="2">
+            <nombre>Luis Romero</nombre>
+            <puesto>Backend</puesto>
+            <salarioAnual>30000€</salarioAnual>
+            <fechaContratacion>2021-06-01</fechaContratacion>
+        </empleado>
+    </desarrollo>
+    <marketing>
+        <empleado id="3">
+            <nombre>Elena Ruiz</nombre>
+            <puesto>Community Manager</puesto>
+            <salarioAnual>24000€</salarioAnual>
+            <fechaContratacion>2023-01-10</fechaContratacion>
+        </empleado>
+    </marketing>
+</empresa>
